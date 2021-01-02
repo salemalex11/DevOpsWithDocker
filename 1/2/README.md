@@ -10,7 +10,7 @@ Submit the output for docker ps -a and docker images
 
 ## Solution
 
-$ docker ps -as
-CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES     SIZE
-Alexs-MBP:~ salemalex11$ docker images
-REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+    $ docker ps -as
+    CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES     SIZE
+    $ docker images
+    REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
