@@ -1,21 +1,23 @@
-# 1.5
+# 1.6
 
 ## Exercise
 
-Create a Dockerfile that starts with FROM devopsdockeruh/overwrite_cmd_exercise. Add a CMD line to the Dockerfile.
+Create a Dockerfile that starts with `FROM devopsdockeruh/overwrite_cmd_exercise`. Add a CMD line to the Dockerfile.
 
 The developer has poorly documented how the application works. Nevertheless once you will execute an application (run a container from an image) you will have some clues on how it works. Your task is to run an application so that it will simulate a clock functionality.
 
-When you will build an image tag it as “docker-clock” so that docker run docker-clock starts the application.
+When you will build an image tag it as “docker-clock” so that `docker run docker-clock` starts the application.
 
 Return both Dockerfile(s) and the command you used to run the container(s)
 
 ## Solution
 
-### Build
+1. Create the [Dockerfile](https://github.com/salemalex11/DevOpsWithDocker/blob/main/1/6/Dockerfile)
 
-$ docker build -t docker-clock .
+2. Build
 
-### Run 
+       $ docker build -t docker-clock .
 
-$ docker run -it docker-clock
+3. Run 
+
+       $ docker run -it docker-clock
