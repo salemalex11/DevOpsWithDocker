@@ -20,7 +20,9 @@ Return both Dockerfile(s) and the command you used to run the container(s)
 
 
 3. Build the image
-$ docker build -t curler
+              
+       $ docker build -t curler
 
-3 Run the container
-$ docker run -it curler
+4. Run the container
+
+       $ docker run -it curler
