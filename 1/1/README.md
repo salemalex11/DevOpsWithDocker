@@ -24,9 +24,9 @@ Submitting the output for docker ps -a is enough to prove this exercise has been
 
 2. Stop 2 containers
 
-        $ docker stop f90
-        99e
         $ docker stop 99e
+        99e
+        $ docker stop 976
         976
 
 
