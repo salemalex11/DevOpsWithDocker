@@ -10,7 +10,7 @@ Stop 2 of the containers leaving 1 up.
 
 Submitting the output for docker ps -a is enough to prove this exercise has been done.
 
-# Solution 
+## Solution 
 
 1. Start 3 containers
 
