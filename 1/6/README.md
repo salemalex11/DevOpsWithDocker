@@ -14,10 +14,10 @@ Return both Dockerfile(s) and the command you used to run the container(s)
 
 1. Create the [Dockerfile](https://github.com/salemalex11/DevOpsWithDocker/blob/main/1/6/Dockerfile)
 
-2. Build
+2. Build the image
 
        $ docker build -t docker-clock .
 
-3. Run 
+3. Run the container
 
        $ docker run -it docker-clock
