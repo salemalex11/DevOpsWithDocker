@@ -13,7 +13,6 @@ Submit the output for docker ps -a and docker images
 1. Clean all containers
 
        $ docker rm $(docker ps -a -q)
-    
        $ docker ps -a
        CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
 
