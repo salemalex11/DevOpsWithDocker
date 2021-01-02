@@ -10,7 +10,15 @@ Submit the output for docker ps -a and docker images
 
 ## Solution
 
-    $ docker ps -as
-    CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES     SIZE
-    $ docker images
-    REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
+1. Clean all containers
+
+       $ docker rm $(docker ps -a -q)
+    
+       $ docker ps -a
+       CONTAINER ID   IMAGE     COMMAND   CREATED   STATUS    PORTS     NAMES
+
+2. Clean all images
+
+       $ docker rmi $(docker images -a -q)
+       $ docker images
+       REPOSITORY   TAG       IMAGE ID   CREATED   SIZE
